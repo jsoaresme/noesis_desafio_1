@@ -1,0 +1,16 @@
+{
+  "name": "noesis_desafio_1",
+  "version": "1.0.0",
+  "description": "Noeses Desafio 1",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --spec ./cypress/integration/*.feature"
+  },
+  "author": "Jonathan Eleuterio",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.4.0",
+    "cypress-cucumber-preprocessor": "^2.3.1"
+  }
+}
